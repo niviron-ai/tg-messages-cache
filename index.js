@@ -121,7 +121,6 @@ async function put_placeholder(ctx, text = "✍") {
 
 
 module.exports = {
-    init,
     add, get, del, edit,
 
     cache_and_show_progress,
