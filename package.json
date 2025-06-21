@@ -1,0 +1,35 @@
+{
+  "name": "@dieugene/tg-messages-cache",
+  "version": "2.0.0",
+  "description": "Модуль кеширования сообщений Telegram с поддержкой CRUD операций и placeholder сообщений",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "telegram",
+    "cache",
+    "messages",
+    "bot",
+    "storage",
+    "crud",
+    "placeholder"
+  ],
+  "author": "Eugene Ditkovsky",
+  "license": "ISC",
+  "dependencies": {
+    "@dieugene/key-value-db": "^1.0.0",
+    "@dieugene/utils": "^1.15.45"
+  },
+  "engines": {
+    "node": ">=12.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/niviron-ai/tg-messages-cache.git"
+  },
+  "bugs": {
+    "url": "https://github.com/niviron-ai/tg-messages-cache/issues"
+  },
+  "homepage": "https://github.com/niviron-ai/tg-messages-cache#readme"
+}
